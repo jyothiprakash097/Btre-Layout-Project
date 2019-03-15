@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
-import django_heroku
+#import django_heroku
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'btredb',
         'USER': 'postgres',
-        'PASSWORD': 'jyothi@1',
+        'PASSWORD': 'jyothi',
         'HOST': 'localhost'
     }
 }
@@ -136,7 +136,7 @@ STATICFILES_DIRS=[
 ]
 
 
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
 
 #media folder
